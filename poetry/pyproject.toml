@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "lockfile-test"
+version = "0.1.0"
+description = ""
+authors = ["Arthur Deierlein <arthur.deierlein@adfinis.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+poetry = "1.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
